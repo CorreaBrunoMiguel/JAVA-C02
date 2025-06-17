@@ -1,0 +1,14 @@
+# Ignorar arquivos Java e diretórios de build
+*.java
+target/
+build/
+
+# Ignorar dependências
+node_modules/
+
+# Ignorar arquivos de configuração e IDE
+dist/
+coverage/
+*.log
+.idea/
+.vscode/
