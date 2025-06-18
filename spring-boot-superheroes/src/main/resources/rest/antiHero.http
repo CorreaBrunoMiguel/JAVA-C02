@@ -1,0 +1,16 @@
+POST http://localhost:8080/api/v1/anti-heroes
+Content-Type: application/json
+
+{
+  "firstName": "Test",
+  "lastName": "antiHero",
+  "house": "test",
+  "knowAs": "testHero"
+}
+
+###
+
+GET http://localhost:8080/api/v1/anti-heroes
+Content-Type: application/json
+
+###
